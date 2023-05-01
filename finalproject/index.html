@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rodents Collection</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/index.css" media="all"/>
+        <link rel="stylesheet" href="css/print.css" media="print"/>
+        <meta name="description" content="collection of all rodent websites" />
+        <meta name="keywords" content="rodent, rat, mouse, hamster, gerbil" />
+        <script src="https://kit.fontawesome.com/43ac196c0b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap" rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <h1>The Official Rodents Collection</h1>
+            </header>
+            <audio id="noise">
+                <source src="media/squeak.mp3" type="audio/mpeg">
+                <source src="media/squeak.ogg" type="audio/ogg">
+                Your browser can't comprehend mouse noises.
+            </audio>
+            <section class="row">
+                <nav class="col-4 col-m-4">
+                  <ul>
+                      <h2>The Rodent Links (and another thing)</h1>
+                      <li><a href="https://lisabalbach.com/urban22/Lesson8/myForm.html">Rodent Form</a></li>
+                      <li><a href="https://lisabalbach.com/urban22/Lesson7/multimedia.html">Rodent Multimedia</a></li>
+                      <li><a href="https://lisabalbach.com/urban22/Lesson11/myCSSGrid.html">Rodent Information</a></li>
+                      <li><a href="http://www.ratfanclub.org/">Rat Fan Club (for people serious about rodents)</a></li>
+                      <img src="media/mouse.jpg" style="width: 100%;" alt="mouse, a rodent" onclick="squeak()">
+                  </ul>
+              </nav>
+            <article class="col-5 col-m-5">
+                <p>View the Rodent Gallery! All-new images</p>
+                <img src="media/gerbil.jpg" style="width: 100%;" alt="gerbil, a rodent">
+                <img src="media/hamster.jpg" style="width: 100%;" alt="hamster, a rodent">
+            </article>
+          </section>
+        <footer class="col-3 col-m-3">
+            <p>&copy; Cameron Urban, NMC Student. Contact Urban22@mail.nmc.edu for more information.</p>
+            <div class="icon-bar">
+                <a href="https://www.youtube.com/watch?v=BBSqiqqt_7E"><i class="fa-solid fa-headphones"></i></a>
+                <a href="https://www.youtube.com/watch?v=IhAz2VVUp2o"><i class="fa-solid fa-burst"></i></a>
+                <a href="https://www.youtube.com/watch?v=OXQwx1EolD8"><i class="fa-solid fa-music"></i></a>
+            </div>
+        </footer>
+        <script>
+            var x = document.getElementById("noise");    
+            function squeak(){
+                x.play();
+            }
+        </script>
+    </body>
+</html>
